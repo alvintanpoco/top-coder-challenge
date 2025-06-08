@@ -58,13 +58,9 @@ Thumbs.db
 temp/
 tmp/
 
-# Project specific
-run.sh
-*.dsl
-comparisons/
-reimbursement-challenge/
-7_hour_attack.md/
-rule_analysis_report.md
+# Project specific - only ignore truly temporary files
+# run.sh (uncomment if you don't want to track this)
+# *.dsl (uncomment if you don't want to track rule files)
 
 # Backup files
 *.bak
