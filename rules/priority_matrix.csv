@@ -1,0 +1,25 @@
+Rule,Priority,Confidence,Recency,Source,Impact_Score,Impact_Tier,Category,Notes
+base_per_diem_100,High,High,Current,Lisa_Accounting,95,Tier1,Runtime,Core foundation calculation
+mileage_tiered_after_100,High,High,Current,Lisa_Accounting,90,Tier1,Runtime,Critical for distance calculations
+efficiency_sweet_spot_180_220,High,High,Current,Kevin_Procurement,88,Tier1,Runtime,Well-documented optimization range
+small_receipt_penalty,High,High,Current,Multiple_Sources,87,Tier1,Runtime,Universal warning to new employees
+guaranteed_bonus_combo,High,High,Current,Kevin_Procurement,85,Tier1,Runtime,Specific tested combination
+five_day_bonus,High,Medium,Current,Lisa_Accounting,85,Tier1,Runtime,Consistent five-day bonus pattern
+receipt_sweet_spot_600_800,High,Medium,Current,Lisa_Accounting,82,Tier1,Runtime,Good treatment range identified
+receipt_diminishing_returns,Medium,High,Current,Lisa_Accounting,80,Tier1,Runtime,Accounting perspective confirms
+spending_per_day_thresholds,Medium,High,Current,Kevin_Procurement,78,Tier2,Runtime,Detailed spend-per-day analysis
+efficiency_bonus_general,Medium,High,Current,Multiple_Sources,75,Tier2,Runtime,Widely acknowledged concept
+vacation_penalty_8plus,Medium,Medium,Current,Kevin_Procurement,72,Tier2,Runtime,Long-trip penalty logic
+low_mile_high_spend_penalty,Medium,Medium,Current,Kevin_Procurement,70,Tier2,Runtime,Inverse efficiency penalty
+trip_length_sweet_spot_4_6,Medium,Medium,Current,Jennifer_HR,70,Tier2,Runtime,4–6-day pattern observed
+high_mile_low_spend_bonus,Medium,Medium,Current,Multiple_Sources,68,Tier2,Runtime,High-mileage/low-spend reward
+six_calculation_paths,High,Medium,Current,Kevin_Procurement,,Structural,Meta-rule for code structure only
+submission_timing_tuesday,Medium,Medium,Current,Kevin_Procurement,65,Tier2,Hypothesis,"8% Tuesday bump; no input available"
+quarterly_q4_sales_bonus,Medium,Low,Current,Marcus_Sales,58,Tier3,Hypothesis,"Dept & quarter input missing"
+new_employee_penalty,Low,Medium,Current,Jennifer_HR,55,Tier3,Hypothesis,"Needs employee_tenure"
+user_history_adaptation,Low,Medium,Current,Marcus_Sales,50,Tier3,Hypothesis,"Requires user_history"
+rounding_bonus_49_99,Low,Medium,Current,Lisa_Accounting,45,Tier3,Hypothesis,"Rounding quirk; late-phase only"
+submission_friday_penalty,Low,Medium,Current,Kevin_Procurement,40,Tier3,Hypothesis,"Friday penalty; no date input"
+department_sales_advantage,Low,Low,Current,Jennifer_HR,35,Tier4,Hypothesis,"Dept bias; no dept input"
+lunar_cycle_correlation,Low,Low,Current,Kevin_Procurement,25,Tier4,Hypothesis,"Likely spurious"
+magic_number_847,Low,Low,Current,Marcus_Sales,20,Tier4,Hypothesis,"Anecdotal folklore"
