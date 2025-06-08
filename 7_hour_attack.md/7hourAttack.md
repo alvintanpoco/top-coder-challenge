@@ -139,7 +139,7 @@ Parse written policy documents to extract reimbursement logic as formalized rule
 ---
 
 ### Hour 5 – Hypothesis Sprint 2: Tiered & Piecewise
-- [ ] **Objective**: Add business rules + conditional logic.
+- [x] **Objective**: Add business rules + conditional logic.
   - Apply known rules from Hour 3:
     - Per-mile tiers
     - Flat-rate lodging/meals
@@ -150,14 +150,14 @@ Parse written policy documents to extract reimbursement logic as formalized rule
     ```
 
 #### 📌 Output:
-- [ ] Updated model with conditional branches
-- [ ] Accuracy comparison vs Hour 4
-- [ ] Annotated formula (both code & human form)
+- [x] Updated model with conditional branches
+- [x] Accuracy comparison vs Hour 4
+- [x] Annotated formula (both code & human form)
 
 ---
 
 ### Hour 6 – Precision Bugs & Legacy Quirks
-- [ ] **Objective**: Handle edge cases, artifacts, and old-system behavior.
+- [x] **Objective**: Handle edge cases, artifacts, and old-system behavior.
   - Review top residuals again:
     - Is it off by 0.01–0.05 → rounding?
     - Is it always $4.31 off → tax logic?
@@ -170,14 +170,14 @@ Parse written policy documents to extract reimbursement logic as formalized rule
     - Leap year handling (if dates involved)
 
 #### 📌 Output:
-- [ ] Patch set of fix functions (e.g., `applyRounding`, `adjustForTax`)
-- [ ] Cases now explained by patch
-- [ ] Final model composite: `model + fixSet = final prediction`
+- [x] Patch set of fix functions (e.g., `applyRounding`, `adjustForTax`)
+- [x] Cases now explained by patch
+- [x] Final model composite: `model + fixSet = final prediction`
 
 ---
 
 ### Hour 7 – Validation, Eval & Write-up
-- [ ] **Objective**: Run final test, submit, and document.
+- [x] **Objective**: Run final test, submit, and document.
   - Run `eval.sh` — confirm high match rate
   - Backtrack remaining mismatches (should be <1%)
   - Write:
@@ -188,7 +188,7 @@ Parse written policy documents to extract reimbursement logic as formalized rule
     - Document which rules are "certain" vs "inferred"
 
 #### 📌 Output:
-- [ ] Final implementation file
+- [x] Final implementation file
 - [ ] One-pager summary: “How This Model Works”
 - [ ] Bonus: Future TODOs (e.g., time-dependent models, rule versioning)
 

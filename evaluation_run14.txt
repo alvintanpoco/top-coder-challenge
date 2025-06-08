@@ -1,0 +1,44 @@
+🧾 Black Box Challenge - Reimbursement System Evaluation
+=======================================================
+
+📊 Running evaluation against 1,000 test cases...
+
+Extracting test data...
+Progress: 0/1000 cases processed...
+Progress: 100/1000 cases processed...
+Progress: 200/1000 cases processed...
+Progress: 300/1000 cases processed...
+Progress: 400/1000 cases processed...
+Progress: 500/1000 cases processed...
+Progress: 600/1000 cases processed...
+Progress: 700/1000 cases processed...
+Progress: 800/1000 cases processed...
+Progress: 900/1000 cases processed...
+❌ No successful test cases!
+
+Your script either:
+  - Failed to run properly
+  - Produced invalid output format
+  - Timed out on all cases
+
+Check the errors below for details.
+
+⚠️  Errors encountered:
+  Case 1: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 2: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 3: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 4: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 5: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 6: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 7: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 8: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 9: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  Case 10: Script failed with error: Traceback (most recent call last):  File "/home/alvin/projects2/eighty90/./run.sh", line 6, in <module>    from model import predict  File "/home/alvin/projects2/eighty90/model.py", line 3    def predict(days: int, m    # Sweet spot efficiency bonus               ^SyntaxError: '(' was never closed
+  ... and 990 more errors
+
+📝 Next steps:
+  1. Fix any script errors shown above
+  2. Ensure your run.sh outputs only a number
+  3. Analyze the patterns in the interviews and public cases
+  4. Test edge cases around trip length and receipt amounts
+  5. Submit your solution via the Google Form when ready!
